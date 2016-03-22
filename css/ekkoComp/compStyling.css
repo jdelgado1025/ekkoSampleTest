@@ -1,0 +1,147 @@
+body {
+	background: url("../../images/background.png") no-repeat;
+	background-size: auto;
+	max-width: 1500px;
+	max-height: 800px;
+}
+
+p {
+	font-family: Arial;
+	color: #5d5d5d;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: justify;
+}
+
+h2 {
+	font-family: Arial;
+	color: #cf0304;
+	font-size: 29.69px;
+	font-weight: 400;
+	text-align: center;
+}
+
+div .col-lg-4 {
+	max-width: 273px;
+}
+
+div.panel.panel-default {
+	position: relative;
+	width: 273px;
+	height: 273px;
+	margin: 0px;
+	margin-bottom: 10px;
+	/*margin-top: 19px;*/
+	background: url("../../images/contentBox.png");
+	background-position: top left;
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+#content {
+	max-width: 856px;
+	margin-bottom: 60px;
+	padding: 0;
+	margin-top: 0;
+}
+
+/*div#main.container {
+	max-width: 856px;
+	max-height: 448px;
+	background: url("C:/MAMP/bin/mamp/webdev/images/mainImage.png") no-repeat;
+	background-size: 100% auto;
+	padding-bottom: 29%;
+	position: relative;
+	height: 0px;
+}*/
+
+/*h1{
+	font-family: Arial;
+	color: rgba(148, 132, 193, 0.86);
+	font-size: 64.74px;
+	font-weight: 700;
+	position: absolute;
+	/*text-align: center;
+}*/
+
+/*div.mainBkgImage {
+	position: relative;
+}
+
+.mainBkgImage img {
+	display: block;
+	width: 100%;
+	max-width: 856px;
+	max-height: 448px;
+	margin: 0 auto;
+}
+
+.mainBkgImage h1 {
+	position: absolute;
+	text-align: center;
+	max-width: 395px;
+	font-family: Arial;
+	color: rgba(148, 132, 193, 0.86);
+	font-weight: 700;
+	font-size: 64.74px;
+	margin: 0;
+}*/
+
+.bkgImageContainer {
+	max-width: 856px;
+	max-height: 448px;
+	position: relative;
+	margin: auto;
+}
+
+img {
+	width: 100%;
+	max-height: 448px;
+}
+
+.title {
+	position: absolute;
+	top: 68%;
+	left: 48%;
+	-webkit-transform: translateY(-8%);
+}
+
+.title h1 {
+	font-family: Arial;
+	color:  rgba(148, 132, 193, 0.86);
+	font-size: 64.74px;
+	font-weight: 700;
+}
+
+@media screen and (max-width: 850px) {
+	.title h1 {font-size: 54.74px}
+}
+
+@media screen and (max-width:680px){
+  .title h1 {font-size: 44.74px}
+}
+
+@media screen and (max-width:540px){
+  .title h1 {font-size: 34.74px}
+}
+
+@media screen and (max-width:410px){
+  .title h1 {font-size: 24.74px}
+}
+
+.allContent {
+	position: relative;
+	max-width: 856px;
+	left: 3%;
+	margin: auto;
+}
+
+#content1 {
+	margin-left: 4px;
+	margin-right: 17px;
+
+}
+
+#content2 {
+	margin-right: 16px;
+}
